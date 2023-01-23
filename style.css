@@ -1,0 +1,88 @@
+.bg-main {
+  background-color: hsl(217, 54%, 11%);
+  height: 100%;
+  width: 100%;
+}
+.bg-main .card {
+  background-color: hsl(216, 50%, 16%);
+  width: 90%;
+  width: 400px;
+  height: 100%;
+  max-height: 650px;
+  border-radius: 25px;
+  position: relative;
+  padding-top: 20px;
+  padding-left: 25px;
+  padding-right: 10px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.bg-main .card .img-card img {
+  width: 350px;
+  height: 350px;
+  border-radius: 15px;
+}
+.bg-main .card .tittle {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.bg-main .card .tittle h1 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 500;
+}
+.bg-main .card .paragraphy {
+  padding-right: 40px;
+  margin-bottom: 30px;
+}
+.bg-main .card .paragraphy p {
+  font-size: 18px;
+  font-weight: 400;
+  color: hsl(215, 51%, 70%);
+  word-spacing: 3px;
+}
+.bg-main .card .money {
+  border-bottom: 1px solid hsl(215, 32%, 27%);
+  padding-bottom: 30px;
+  margin-bottom: 15px;
+  margin-right: 25px;
+}
+.bg-main .card .money .left {
+  float: left;
+}
+.bg-main .card .money .left span {
+  margin-left: 3px;
+  position: relative;
+  bottom: 2px;
+  color: hsl(178, 100%, 50%);
+  font-weight: 500;
+}
+.bg-main .card .money .right {
+  float: right;
+}
+.bg-main .card .money .right span {
+  color: hsl(215, 51%, 70%);
+}
+.bg-main .card .copyright {
+  height: 50px;
+}
+.bg-main .card .copyright .paragraphy-copyright {
+  display: inline-block;
+  position: relative;
+  bottom: 10px;
+  margin-left: 10px;
+}
+.bg-main .card .copyright .paragraphy-copyright span:nth-child(1) {
+  color: hsl(215, 51%, 70%);
+  margin-right: 5px;
+  font-weight: 600;
+}
+.bg-main .card .copyright .paragraphy-copyright span:nth-child(2) {
+  color: white;
+  font-weight: 600;
+}
+.bg-main .card .copyright img {
+  border: 1px solid white;
+  border-radius: 35px;
+  width: 35px;
+}
